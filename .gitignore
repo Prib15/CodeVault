@@ -1,0 +1,7 @@
+/.vscode
+.mygit/
+.clangd/
+.cache/
+vault.exe
+vault
+compiled.exe

@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  codevault:
+    build: .
+    container_name: codevault_cli
+    volumes:
+      - .:/app 
+    depends_on:
+      - redis
+    stdin_open: true 
+    tty: true
+
+  redis:
+    image: redis:alpine
+    container_name: codevault_redis
+    ports:
+      - "6379:6379"

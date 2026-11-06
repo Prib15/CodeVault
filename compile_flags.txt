@@ -1,0 +1,6 @@
+-std=c++17
+--target=x86_64-w64-mingw32
+-Iinclude
+-isystemC:/w64devkit/lib/gcc/x86_64-w64-mingw32/16.2.0/include/c++
+-isystemC:/w64devkit/lib/gcc/x86_64-w64-mingw32/16.2.0/include/c++/x86_64-w64-mingw32
+-isystemC:/w64devkit/lib/gcc/x86_64-w64-mingw32/16.2.0/include/c++/backward
